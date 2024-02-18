@@ -1,4 +1,11 @@
 import {generateId} from "../utils";
+import img_one from "../assets/images/Квадроциклы.png"
+import img_two from "../assets/images/Гидроциклы.png"
+import img_three from "../assets/images/Катера.png"
+import img_four from "../assets/images/Снегоходы.png"
+import img_five from "../assets/images/Вездеходы.png"
+import img_six from "../assets/images/Двигатели.png"
+
 export  const carouselData=[
     {
         id:generateId(),
@@ -31,4 +38,45 @@ export const btns=[
         value:'названию товара',
     },
     
+];
+
+export const category=[
+    {
+        id:generateId(),
+        title:"Квадроциклы",
+        img: img_one,
+        category:  "quad-bikes"
+    },
+    {
+        id:generateId(),
+        title:"Гидроциклы",
+        img:img_two,
+        category:"hydro-cycles"
+    },
+    {
+        id:generateId(),
+        title:"Катера",
+        img:img_three,
+        category:"boat"
+    },
+    {
+        id:generateId(),
+        title:"Снегоходы",
+        img:img_four,
+        category:"snowboard",
+    },
+    {
+        id:generateId(),
+        title:"Вездеходы",
+        img:img_five,
+        category:"off-roads"
+    },
+    {
+        id:generateId(),
+        title:"Двигатели",
+        img:img_six,
+        category:"engines"
+    },
+    
+
 ]

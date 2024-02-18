@@ -15,11 +15,13 @@ const withMT = require("@material-tailwind/react/utils/withMT");
         dark:{
           100:"rgb(196,196,196)",
           200:"rgb(101,100,100)",
-          300:"rgb(47,48,53)"
+          300:"rgb(47,48,53)",
+
 
         },
         primary:"rgb(28,98,205)",
-        gray:"rgb(240,240,244)"
+        gray:"rgb(240,240,244)",
+        border:"rgb(205, 205, 205)"
         
       }
     },

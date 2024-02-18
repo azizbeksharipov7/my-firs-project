@@ -14,8 +14,9 @@ function App() {
       element: <Products />,
     },
     {
-      path: "/info",
-      element: <Info />,
+      path: "/info/:category",
+      element: <Info/>,
+
     }
   ])
   return <RouterProvider router={routes}/>;
